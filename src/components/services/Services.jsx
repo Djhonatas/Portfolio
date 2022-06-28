@@ -1,9 +1,105 @@
 import React from 'react'
 import './services.css'
+import {BiCheck} from 'react-icons/bi'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <section id='services'>
+      <h5>What I Offer</h5>
+      <h2>Services</h2>
+
+      <div className='container services__container'>
+        <article className='service'>
+          <div className='service__head'>
+            <h3>Em Breve</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+          </ul>
+        </article>
+        {/*END OF EM BREVE*/}
+
+        <article className='service'>
+          <div className='service__head'>
+            <h3>Em Breve 2</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+          </ul>
+        </article>
+        {/*END OF EM BREVE 2*/}
+
+        <article className='service'>
+          <div className='service__head'>
+            <h3>Em Breve 3</h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </li>
+          </ul>
+        </article>
+        {/*END OF EM BREVE 3*/}
+      </div>
+    </section>
   )
 }
 
