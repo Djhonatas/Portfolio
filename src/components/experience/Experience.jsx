@@ -5,8 +5,8 @@ import {BsFillPatchCheckFill} from 'react-icons/bs'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>Whats Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h5>Quais skills eu possuo</h5>
+      <h2>Minha Experiência</h2>
 
       <div className='container experience__container'>
         <div className='experience__frontend'>
@@ -17,7 +17,7 @@ const Experience = () => {
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                <h4>HTML</h4>
-               <small className='text-ligth'>Intermediate</small>
+               <small className='text-ligth'>Intermediário</small>
               </div>
             </article>
            
@@ -25,7 +25,7 @@ const Experience = () => {
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>CSS</h4>
-                <small className='text-ligth'>Intermediate</small>
+                <small className='text-ligth'>Intermediário</small>
               </div>
             </article>
             
@@ -33,7 +33,7 @@ const Experience = () => {
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>React</h4>
-                <small className='text-ligth'>Basic</small>
+                <small className='text-ligth'>Básico</small>
               </div>
             </article>
             
@@ -41,7 +41,7 @@ const Experience = () => {
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-ligth'>Intermediate</small>
+                <small className='text-ligth'>Intermediário</small>
               </div>
             </article>
             
@@ -49,7 +49,7 @@ const Experience = () => {
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-ligth'>Basic</small>
+                <small className='text-ligth'>Básico</small>
               </div>
             </article>
 
@@ -65,7 +65,7 @@ const Experience = () => {
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>Python</h4>
-                <small className='text-ligth'>Basic</small>
+                <small className='text-ligth'>Básico</small>
               </div>
             </article>
            
@@ -73,7 +73,7 @@ const Experience = () => {
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>SQL Server</h4>
-                <small className='text-ligth'>Intermediate</small>
+                <small className='text-ligth'>Intermediário</small>
               </div>
             </article>
             
@@ -81,7 +81,7 @@ const Experience = () => {
               <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>Node JS</h4>
-                <small className='text-ligth'>Basic</small>
+                <small className='text-ligth'>Básico</small>
               </div>
             </article>
           
