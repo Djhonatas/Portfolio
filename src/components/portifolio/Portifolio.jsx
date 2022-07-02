@@ -13,42 +13,42 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'titulo',
+    title: 'Imagem meramente ilustrativa',
     github: 'https://github.com/Djhonatas',
     demo: 'https://dribbble.com/OliveiraDjhonatas'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'titulo',
+    title: 'Imagem meramente ilustrativa',
     github: 'https://github.com/Djhonatas',
     demo: 'https://dribbble.com/OliveiraDjhonatas'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'titulo',
+    title: 'Imagem meramente ilustrativa',
     github: 'https://github.com/Djhonatas',
     demo: 'https://dribbble.com/OliveiraDjhonatas'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'titulo',
+    title: 'Imagem meramente ilustrativa',
     github: 'https://github.com/Djhonatas',
     demo: 'https://dribbble.com/OliveiraDjhonatas'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'titulo',
+    title: 'Imagem meramente ilustrativa',
     github: 'https://github.com/Djhonatas',
     demo: 'https://dribbble.com/OliveiraDjhonatas'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'titulo',
+    title: 'Imagem meramente ilustrativa',
     github: 'https://github.com/Djhonatas',
     demo: 'https://dribbble.com/OliveiraDjhonatas'
   },  
