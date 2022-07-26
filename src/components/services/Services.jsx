@@ -11,29 +11,21 @@ const Services = () => {
       <div className='container services__container'>
         <article className='service'>
           <div className='service__head'>
-            <h3>Em Breve</h3>
+            <h3>Comprometimento</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Entregar o melhor de mim nos projetos que eu assumir.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Clean Code.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Está sempre em busca da melhor solução para o problema</p>
             </li>
           </ul>
         </article>
@@ -57,14 +49,6 @@ const Services = () => {
               <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
           </ul>
         </article>
         {/*END OF EM BREVE 2*/}
@@ -75,14 +59,6 @@ const Services = () => {
           </div>
 
           <ul className='service__list'>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
             <li>
               <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>

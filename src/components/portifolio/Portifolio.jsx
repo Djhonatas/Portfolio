@@ -1,57 +1,33 @@
 import React from 'react'
 import './portifolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/port.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
-
 
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Imagem meramente ilustrativa',
-    github: 'https://github.com/Djhonatas',
-    demo: 'https://dribbble.com/OliveiraDjhonatas'
+    title: 'Controle para empresa de bordados',
+    github: 'https://github.com/Djhonatas/Bordados',
+    // demo: 'https://dribbble.com/OliveiraDjhonatas'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Imagem meramente ilustrativa',
+    title: 'Em breve',
     github: 'https://github.com/Djhonatas',
-    demo: 'https://dribbble.com/OliveiraDjhonatas'
+    // demo: 'https://dribbble.com/OliveiraDjhonatas'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Imagem meramente ilustrativa',
+    title: 'Em breve',
     github: 'https://github.com/Djhonatas',
-    demo: 'https://dribbble.com/OliveiraDjhonatas'
+    // demo: 'https://dribbble.com/OliveiraDjhonatas'
   },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Imagem meramente ilustrativa',
-    github: 'https://github.com/Djhonatas',
-    demo: 'https://dribbble.com/OliveiraDjhonatas'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Imagem meramente ilustrativa',
-    github: 'https://github.com/Djhonatas',
-    demo: 'https://dribbble.com/OliveiraDjhonatas'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Imagem meramente ilustrativa',
-    github: 'https://github.com/Djhonatas',
-    demo: 'https://dribbble.com/OliveiraDjhonatas'
-  },  
+
 ]
 
 const Portifolio = () =>{
@@ -70,8 +46,8 @@ const Portifolio = () =>{
                 </div>
                 <h3>{title}</h3>
                 <div className='portifolio__item-cta'>
-                  <a href={github} className='btn' target='_blank'>Github</a>
-                  <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                  <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
+                  {/* <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a> */}
                 </div>
               </article>
             )

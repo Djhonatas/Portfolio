@@ -40,11 +40,11 @@ const About = () => {
           </div>
 
           <p>
-            Analista de Sistemas com um pouco mais de 1 ano de experiência, estou em busca de realocação profissional.         
+            Analista de Sistemas, formado pela Universidade Estácio de Sá.         
           </p>
 
           <p>
-          Busco por uma empresa que me proporcione desafios constantes, pois creio que dessa forma, estará me ajudando no meu crescimento profissional e pessoal.   
+          Estou constantemente em busca do conhecimento, para está sempre atualizado no que se refere ao mundo digital
           </p>
 
           <a href="#contact" className='btn btn-primary'>Vamos Conversar</a>
