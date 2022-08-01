@@ -5,17 +5,18 @@ header {
 }
 
 .header__container{
-  text-align: center;
+  text-align: right;
   height: 100%;
   position: relative;
 }
+
 
 /*============== CTA ====================*/
 .cta {
   margin-top: 2.5rem;
   display: flex;
   gap: 1.2rem;
-  justify-content: center;
+  justify-content:right;
 }
 
 /*============== HEADER SOCIALS ====================*/
@@ -43,10 +44,11 @@ header {
   height: 30rem;
   position: absolute;
   left: calc(50% - 11rem);
-  margin-top: 4rem;
+  margin-top: 2rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem;
+  
 }
 
 /*============== SCROLL DOWN ====================*/
