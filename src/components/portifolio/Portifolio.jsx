@@ -1,7 +1,7 @@
 import React from 'react'
 import './portifolio.css'
 import IMG1 from '../../assets/port.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG2 from '../../assets/game.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 
 
@@ -9,14 +9,14 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Controle para empresa de bordados',
+    title: 'Embroidery (Em breve)',
     github: 'https://github.com/Djhonatas/Bordados',
     // demo: 'https://dribbble.com/OliveiraDjhonatas'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Em breve',
+    title: 'Blog Game News',
     github: 'https://github.com/Djhonatas',
     // demo: 'https://dribbble.com/OliveiraDjhonatas'
   },

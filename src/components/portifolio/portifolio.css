@@ -23,6 +23,7 @@
   border-radius: 1.5rem;
   overflow: hidden;
   place-items: center;
+  height: 16rem;
 }
 
 .portifolio__item h3 {
