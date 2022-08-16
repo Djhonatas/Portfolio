@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 5rem;
   overflow: hidden;
 }
 
@@ -40,8 +40,8 @@ header {
 /*============== ME ====================*/
 /* .me{
    background: linear-gradient(var(--color-primary), transparent);  
-  width: 30%;
-  height: 50%;
+  width: 23rem;
+  height: 23rem;
   position: absolute;
   left: calc(48% - 11rem);
   margin-top: 6rem;
@@ -55,19 +55,20 @@ header {
 .me {
   background: linear-gradient(var(--color-primary), transparent);  
   border-radius: 50%;
-  left: calc(47% - 11rem);
-  width: 26rem;
-  height: 26rem;
+  left: calc(50% - 11rem);
+  width: 22rem;
+  height: 22rem;
   margin-top: 6rem;
   overflow: hidden;
   position: absolute;
-}
+  padding: 0rem -1rem 1rem;
+  margin-top: 10rem;
+  border-radius: 10rem 10rem 1 1;
+  padding: 6rem 0rem 1.5rem;
 
-.me img {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
+} 
+
+
 
 /*============== SCROLL DOWN ====================*/
 .scroll__down {

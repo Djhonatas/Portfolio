@@ -1,8 +1,8 @@
 import React from 'react'
 import './portifolio.css'
 import IMG1 from '../../assets/dev2.jpeg'
-import IMG2 from '../../assets/game2.png'
-import IMG3 from '../../assets/emb.jpg'
+import IMG2 from '../../assets/game.png'
+import IMG3 from '../../assets/hk.jpeg'
 
 
 const data = [

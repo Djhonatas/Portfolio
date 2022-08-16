@@ -1,9 +1,10 @@
 .portifolio__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
+  gap: 2.4rem;
   text-align: center;
-  height: 30rem;
+
+
   
 }
 
@@ -21,20 +22,21 @@
 }
 
 .portifolio__item-image {
-  border-radius: 1.4rem;
+  border-radius: 1.9rem;
   overflow: hidden;
   place-items: center;
-  height: 17rem;
+  height: 15rem;
 }
 
 .portifolio__item h3 {
   margin: 1.2rem 0 2rem;
+ 
 }
 
 .portifolio__item-cta {
   display: flex;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
  
 }
 
