@@ -2,10 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.4rem;
-  text-align: center;
-
-
-  
+  text-align: center; 
 }
 
 .portifolio__item {
@@ -30,14 +27,13 @@
 
 .portifolio__item h3 {
   margin: 1.2rem 0 2rem;
- 
 }
 
 .portifolio__item-cta {
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
- 
+
 }
 
 
