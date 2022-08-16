@@ -3,6 +3,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem;
   text-align: center;
+  height: 30rem;
   
 }
 
@@ -20,10 +21,10 @@
 }
 
 .portifolio__item-image {
-  border-radius: 1.5rem;
+  border-radius: 1.4rem;
   overflow: hidden;
   place-items: center;
-  height: 16rem;
+  height: 17rem;
 }
 
 .portifolio__item h3 {
@@ -34,6 +35,7 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+ 
 }
 
 

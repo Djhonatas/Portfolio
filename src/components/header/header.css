@@ -38,17 +38,35 @@ header {
 }
 
 /*============== ME ====================*/
-.me{
-  /* background: linear-gradient(var(--color-primary), transparent); */
-  width: 23rem;
-  height: 30rem;
+/* .me{
+   background: linear-gradient(var(--color-primary), transparent);  
+  width: 30%;
+  height: 50%;
   position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 2rem;
+  left: calc(48% - 11rem);
+  margin-top: 6rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem;
+  border-radius: 50%;
   
+} */
+
+.me {
+  background: linear-gradient(var(--color-primary), transparent);  
+  border-radius: 50%;
+  left: calc(47% - 11rem);
+  width: 26rem;
+  height: 26rem;
+  margin-top: 6rem;
+  overflow: hidden;
+  position: absolute;
+}
+
+.me img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 /*============== SCROLL DOWN ====================*/

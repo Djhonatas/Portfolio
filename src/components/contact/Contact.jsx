@@ -19,7 +19,7 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Entre em Contato</h5>
+
       <h2>Meu Contato</h2>
 
       <div className="container contact__container">
@@ -28,21 +28,21 @@ const Contact = () => {
           <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>dj.assuntospessoais@gmail.com</h5>
-            <a href="mailto:dj.assuntospessoais@gmail.com" target='_blank'>Envie sua mensagem</a>
+            <a href="mailto:dj.assuntospessoais@gmail.com" target='_blank' rel="noreferrer">Envie sua mensagem</a>
           </article>
 
           <article className="contact__option">
           <BsMessenger className='contact__option-icon'/>
             <h4>Mensagem</h4>
             <h5>Djhonatas Oliveira</h5>
-            <a href="https://m.me/oliveira.djhonatas" target='_blank'>Envie sua mensagem</a>
+            <a href="https://m.me/oliveira.djhonatas" target='_blank' rel="noreferrer">Envie sua mensagem</a>
           </article>
 
           <article className="contact__option">
           <BsWhatsapp className='contact__option-icon' />
             <h4>WhatsApp</h4>
             <h5>+55 11 99306-3466 </h5>
-            <a href="https://api.whatsapp.com/send?phone=5511993063466" target='_blank'>Envie sua mensagem</a>
+            <a href="https://api.whatsapp.com/send?phone=5511993063466" target='_blank' rel="noreferrer">Envie sua mensagem</a>
           </article>
 
         </div>
