@@ -6,20 +6,23 @@ import IMG3 from '../../assets/hk.jpeg'
 
 
 const data = [
+
   {
     id: 1,
+    image: IMG2,
+    title: 'Blog Game News',
+    github: 'https://github.com/Djhonatas/Blog.git',
+     demo: 'https://morning-ravine-54740.herokuapp.com/'
+  },
+  
+  {
+    id: 2,
     image: IMG1,
     title: 'Embroidery (Em breve)',
     github: 'https://github.com/Djhonatas/Bordados',
     // demo: 'https://dribbble.com/OliveiraDjhonatas'
   },
-  {
-    id: 2,
-    image: IMG2,
-    title: 'Blog Game News',
-    github: 'https://github.com/Djhonatas/Blog.git',
-    // demo: 'https://dribbble.com/OliveiraDjhonatas'
-  },
+
   {
     id: 3,
     image: IMG3,
@@ -47,7 +50,7 @@ const Portifolio = () =>{
                 <h3>{title}</h3>
                 <div className='portifolio__item-cta'>
                   <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
-                  {/* <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a> */}
+                   <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Demo</a> 
                 </div>
               </article>
             )
