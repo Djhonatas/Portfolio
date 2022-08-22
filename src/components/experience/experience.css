@@ -1,7 +1,7 @@
 .experience__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .experience__container > div {
@@ -27,7 +27,7 @@
 .experience__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 2rem;
+  row-gap: 2.2rem;
 }
 
 .experience__details {
@@ -38,6 +38,7 @@
 .experience__details-icon {
   margin-top: 6px;
   color: var(--color-primary);
+
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ======================*/

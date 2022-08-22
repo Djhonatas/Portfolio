@@ -1,6 +1,15 @@
 import React from 'react'
 import './experience.css'
-import {BsFillPatchCheckFill} from 'react-icons/bs'
+import {RiHtml5Line} from 'react-icons/ri'
+import {SiMongodb} from 'react-icons/si'
+import {DiCss3} from 'react-icons/di'
+import {DiReact} from 'react-icons/di'
+import {TbBrandJavascript} from 'react-icons/tb'
+import {BsFillBootstrapFill} from 'react-icons/bs'
+import {FaPython} from 'react-icons/fa'
+import {DiMsqlServer} from 'react-icons/di'
+import {DiNodejsSmall} from 'react-icons/di'
+
 
 const Experience = () => {
   return (
@@ -13,23 +22,23 @@ const Experience = () => {
           <div className='experience__content'>
             
             <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
+              <RiHtml5Line className='experience__details-icon' />
               <div>
-               <h4>HTML</h4>
+               <h4>HTML5</h4>
                <small className='text-ligth'>Básico</small>
               </div>
             </article>
            
             <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
+              <DiCss3 className='experience__details-icon' />
               <div>
-                <h4>CSS</h4>
+                <h4>CSS3</h4>
                 <small className='text-ligth'>Básico</small>
               </div>
             </article>
             
             <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
+              <DiReact className='experience__details-icon' />
               <div>
                 <h4>React</h4>
                 <small className='text-ligth'>Básico</small>
@@ -37,7 +46,7 @@ const Experience = () => {
             </article>
             
             <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
+              <TbBrandJavascript className='experience__details-icon' />
               <div>
                 <h4>JavaScript</h4>
                 <small className='text-ligth'>Básico</small>
@@ -45,7 +54,7 @@ const Experience = () => {
             </article>
             
             <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
+              <BsFillBootstrapFill className='experience__details-icon' />
               <div>
                 <h4>Bootstrap</h4>
                 <small className='text-ligth'>Básico</small>
@@ -61,7 +70,7 @@ const Experience = () => {
           <div className='experience__content'>
             
             <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
+              <FaPython className='experience__details-icon' />
               <div>
                 <h4>Python</h4>
                 <small className='text-ligth'>Básico</small>
@@ -69,7 +78,7 @@ const Experience = () => {
             </article>
            
             <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
+              <DiMsqlServer className='experience__details-icon' />
               <div>
                 <h4>SQL Server</h4>
                 <small className='text-ligth'>Intermediário</small>
@@ -77,9 +86,17 @@ const Experience = () => {
             </article>
             
             <article className='experience__details'>
-              <BsFillPatchCheckFill className='experience__details-icon' />
+              <DiNodejsSmall className='experience__details-icon' />
               <div>
-                <h4>Node JS</h4>
+                <h4>Node.JS</h4>
+                <small className='text-ligth'>Básico</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <SiMongodb className='experience__details-icon' />
+              <div>
+                <h4>MongoDB</h4>
                 <small className='text-ligth'>Básico</small>
               </div>
             </article>
