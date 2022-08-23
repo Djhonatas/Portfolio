@@ -1,8 +1,8 @@
 import React from 'react'
 import './portifolio.css'
-import IMG1 from '../../assets/dev2.jpeg'
+import IMG1 from '../../assets/tech.jpg'
 import IMG2 from '../../assets/game.png'
-import IMG3 from '../../assets/api-1.jpg'
+import IMG3 from '../../assets/dash.png'
 
 
 const data = [
@@ -15,19 +15,20 @@ const data = [
      demo: 'https://morning-ravine-54740.herokuapp.com/'
   },
   
+
   {
     id: 2,
-    image: IMG1,
-    title: 'Embroidery (Em breve)',
-    github: 'https://github.com/Djhonatas/Bordados',
-    // demo: 'https://dribbble.com/OliveiraDjhonatas'
+    image: IMG3,
+    title: 'Dashboard',
+    github: 'https://github.com/Djhonatas/DashBorad-responsive',
+    demo: 'https://dash-borad-responsive.vercel.app/'
   },
 
   {
     id: 3,
-    image: IMG3,
-    title: 'API (Em breve)',
-    github: 'https://github.com/Djhonatas',
+    image: IMG1,
+    title: 'A.P.I (Em breve)',
+    github: 'https://github.com/Djhonatas/Bordados',
     // demo: 'https://dribbble.com/OliveiraDjhonatas'
   },
 
