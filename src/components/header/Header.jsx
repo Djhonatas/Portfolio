@@ -1,19 +1,22 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/dev.jpg'
+import ME from '../../assets/img.jpeg'
 import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
   return (
     <header>
       <div className='container header__container'>
-        <h5>Hello! My name is</h5>
-        <h1>Oliveira Djhonatas</h1>
-        <h4 className='text-light'>Developer Back-end</h4>
-        <CTA />
-        <HeaderSocials />
-        
+        <div className='desc__me'>
+          <h1 style={{ color: "#55afd3" }}>Hello! </h1><br />
+          <h1>I'm Oliveira Djhonatas</h1>
+          <h1>A Developer FullStack
+            based in Brazil</h1>
+          <CTA />
+          <HeaderSocials />
+        </div>
+
         <div className='me'>
           <img src={ME} alt="me" />
         </div>
