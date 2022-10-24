@@ -8,12 +8,10 @@
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
-  background: linear-gradient(
-    45deg,
-    transparent,
-    var(--color-primary),
-    transparent
-  );
+  background: linear-gradient(45deg,
+      transparent,
+      var(--color-primary),
+      transparent);
   display: grid;
   place-items: center;
 }
@@ -75,7 +73,8 @@
   .about__container {
     grid-template-columns: 1fr;
     gap: 0;
-    }
+  }
+
   .about__me {
     width: 50%;
     margin: 2rem auto 4rem;
@@ -86,7 +85,7 @@
   }
 }
 
-  /* ========== MEDIA QUERIES (SMALL DEVICES) ======================*/
+/* ========== MEDIA QUERIES (SMALL DEVICES) ======================*/
 @media screen and (max-width: 600px) {
   .about__me {
     width: 65%;
@@ -105,4 +104,8 @@
   .about__container p {
     margin: 1.5rem 0;
   }
-    }
+
+  .info {
+    text-align: justify;
+  }
+}
