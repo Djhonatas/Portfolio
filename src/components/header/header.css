@@ -122,10 +122,20 @@ header {
   }
 
   .desc__me {
-    left: auto;
-    right: auto;
+    align-items: center;
+    margin-top: -10%;
+    margin-left: -24%;
+    padding-right: 15%;
+
+
   }
 
+  .cta {
+    align-items: center;
+    width: 100%;
+    margin-left: -10%;
+
+  }
 
   .header__socials,
   .scroll__down {
