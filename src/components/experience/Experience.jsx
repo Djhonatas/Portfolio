@@ -89,7 +89,7 @@ const Experience = () => {
               <DiNodejsSmall className='experience__details-icon' />
               <div>
                 <h4>Node.JS</h4>
-                <small className='text-ligth'>Básico</small>
+                <small className='text-ligth'>Intermediário</small>
               </div>
             </article>
 
