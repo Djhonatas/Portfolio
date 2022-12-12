@@ -39,10 +39,10 @@ const About = () => {
           </div>
           <div className='info'>
             <p>
-              Formado em Análise e desenvolvimen de Sistemas, pela Universidade Estácio de Sá.
+              Formado em análise e desenvolvimento de sistemas, pela Universidade Estácio de Sá, busco novos desafios na minha carreira profissional como desenvolvedor back-end.
             </p>
             <p>
-              Desenvolvedor FullStack em busca de recolocação profissional, com ênfase em desenvolvimento back-end
+              Procuro por uma empresa que possa me proporcionar desafios constantes, inovação e oportunidades de crescimento pessoal e profissional.
             </p>
           </div>
 
