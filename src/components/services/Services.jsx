@@ -50,7 +50,7 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Aplicaão de técnicas de design gráfico como tipografia, psicologia das cores, alinhament e escala .</p>
+              <p>Aplicação de técnicas de design gráfico como tipografia, psicologia das cores, alinhamento e escala .</p>
             </li>
           </ul>
         </article>
