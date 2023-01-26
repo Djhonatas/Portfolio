@@ -9,10 +9,9 @@ const Header = () => {
     <header>
       <div className='container header__container'>
         <div className='desc__me'>
-          <h1 style={{ color: "#20a4d8" }}>Hello! </h1><br />
-          <h1>I'm Oliveira Djhonatas</h1>
-          <h1>A Developer FullStack
-            based in Brazil</h1>
+          <h1 style={{ color: "white" }}>Olá! </h1><br />
+          <h2>Me chamo Djhonatas Oliveira,</h2>
+          <h2>desenvolvedor back-end</h2>
           <CTA />
           <HeaderSocials />
         </div>

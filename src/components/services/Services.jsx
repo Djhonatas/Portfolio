@@ -1,12 +1,11 @@
 import React from 'react'
 import './services.css'
-import {BiCheck} from 'react-icons/bi'
+import { BiCheck } from 'react-icons/bi'
 
 const Services = () => {
   return (
     <section id='services'>
-      <h5>O que eu ofereço</h5>
-      <h2>Serviços</h2>
+      <h2 style={{ color: 'white' }}>Serviços</h2>
 
       <div className='container services__container'>
         <article className='service'>

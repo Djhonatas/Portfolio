@@ -27,7 +27,7 @@ const data = [
   {
     id: 3,
     image: IMG1,
-    title: 'A.P.I (Em breve)',
+    title: 'API E-commerce',
     github: 'https://github.com/Djhonatas/Rest-API-eCommerce',
     // demo: 'https://dribbble.com/OliveiraDjhonatas'
   },
@@ -38,7 +38,7 @@ const Portifolio = () => {
   return (
     <section id='portifolio'>
 
-      <h2>Portifólio</h2>
+      <h2 style={{ color: 'white' }}>Portfolio</h2>
 
       <div className='container portifolio__container'>
         {

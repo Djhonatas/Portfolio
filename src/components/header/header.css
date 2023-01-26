@@ -15,10 +15,10 @@ header {
 
 /*============== CTA ====================*/
 .cta {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   display: flex;
   gap: 1.2rem;
-  justify-content: right;
+  justify-content: left;
 }
 
 /*============== HEADER SOCIALS ====================*/
@@ -60,8 +60,8 @@ header {
 }
 
 .me {
-  width: 22rem;
-  height: 30rem;
+  width: 16rem;
+  height: 28rem;
   position: relative;
   margin-top: 10%;
   left: calc(50% - 8rem);
@@ -69,7 +69,7 @@ header {
 }
 
 .me>img {
-  border-radius: 3rem;
+  border-radius: 1rem;
 }
 
 /*.me{
