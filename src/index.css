@@ -11,38 +11,14 @@
 }
 
 :root {
-
-  /* --color-bg: #000010;
-  --color-bg-variant: #175ebb;
-  --color-primary: #20d2d8;
-  --color-primary-variant: #20dad8;
+  --color-bg: #1a1a1a;
+  --color-bg-variant: #282828;
+  --color-primary: #34D399;
+  /* Verde mais claro e agradável */
+  --color-primary-variant: #059669;
+  /* Verde escuro e complementar */
   --color-white: #ffffff;
-  --color-ligth: #e2e2e2;
-  --color-dj: rgb(126, 88, 150); */
-  /* 
-  --color-bg: #0e3b64;
-  --color-bg-variant: #0c5e8a;
-  --color-primary: #088fb8;
-  --color-primary-variant: #05d7e9;
-  --color-white: #ffffff;
-  --color-ligth: #e2e2e2;
-  --color-dj: rgb(126, 88, 150); */
-
-  /* --color-bg: #262156;
-  --color-bg-variant: #58276c;
-  --color-primary: #9f2b81;
-  --color-primary-variant: #f42e91;
-  --color-white: #ffffff;
-  --color-ligth: #e2e2e2;
-  --color-dj: rgb(126, 88, 150); */
-
-  --color-bg: #00303b;
-  --color-bg-variant: #004c58;
-  --color-primary: #007680;
-  --color-primary-variant: #00acb1;
-  --color-white: #ffffff;
-  --color-ligth: #e2e2e2;
-  --color-dj: rgb(126, 88, 150);
+  --color-light: #f2f2f2;
 
   --transition: all 400ms ease;
 

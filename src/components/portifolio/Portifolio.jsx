@@ -1,14 +1,23 @@
 import React from 'react'
 import './portifolio.css'
-import IMG1 from '../../assets/tech.jpg'
+import IMG1 from '../../assets/mario.jpg'
 import IMG2 from '../../assets/game.png'
 import IMG3 from '../../assets/dash.png'
+import IMG4 from '../../assets/tech.jpg'
 
 
 const data = [
 
   {
     id: 1,
+    image: IMG1,
+    title: 'Jogo Super Mário',
+    github: 'https://github.com/Djhonatas/super-mario.git',
+    demo: 'https://super-mario-five.vercel.app/'
+  },
+
+  {
+    id: 2,
     image: IMG2,
     title: 'Blog Game News',
     github: 'https://github.com/Djhonatas/Blog.git',
@@ -17,7 +26,7 @@ const data = [
 
 
   {
-    id: 2,
+    id: 3,
     image: IMG3,
     title: 'Dashboard',
     github: 'https://github.com/Djhonatas/DashBorad-responsive',
@@ -25,8 +34,8 @@ const data = [
   },
 
   {
-    id: 3,
-    image: IMG1,
+    id: 4,
+    image: IMG4,
     title: 'API E-commerce',
     github: 'https://github.com/Djhonatas/Rest-API-eCommerce',
     // demo: 'https://dribbble.com/OliveiraDjhonatas'

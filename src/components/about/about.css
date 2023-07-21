@@ -1,3 +1,4 @@
+/* Estilos para a seção "Sobre Mim" */
 .about__container {
   display: grid;
   grid-template-columns: 35% 50%;
@@ -7,26 +8,21 @@
 .about__me {
   width: 100%;
   aspect-ratio: 1/1;
-  border-radius: 2rem;
-  background: linear-gradient(45deg,
-      transparent,
-      var(--color-primary),
-      transparent);
-  display: grid;
-  place-items: center;
-}
-
-.about__me-image {
+  background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
-  transition: var(--transition);
+  transition: transform var(--transition);
 }
 
-.about__me-image:hover {
+.about__me:hover {
   transform: rotate(0);
 }
 
+/* Estilos para os cards de habilidades */
 .about__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -39,7 +35,7 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
-  transition: var(--transition);
+  transition: background var(--transition), border-color var(--transition);
 }
 
 .about__card:hover {
@@ -60,15 +56,15 @@
 
 .about__card small {
   font-size: 0.7rem;
-  color: var(--color-ligth);
+  color: var(--color-light);
 }
 
 .about__content p {
   margin: 2rem 0 2.6rem;
-  color: var(--color-ligth);
+  color: var(--color-light);
 }
 
-/* ========== MEDIA QUERIES (MEDIUM DEVICES) ======================*/
+/* Estilos para tamanhos de dispositivos médios */
 @media screen and (max-width: 1024px) {
   .about__container {
     grid-template-columns: 1fr;
@@ -85,7 +81,7 @@
   }
 }
 
-/* ========== MEDIA QUERIES (SMALL DEVICES) ======================*/
+/* Estilos para tamanhos de dispositivos pequenos */
 @media screen and (max-width: 600px) {
   .about__me {
     width: 65%;

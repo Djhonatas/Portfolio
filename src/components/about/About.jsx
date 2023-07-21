@@ -39,11 +39,20 @@ const About = () => {
             </article>
           </div>
           <div className='info'>
+            <p>Caro(a) recrutador,</p>
             <p style={{ textAlign: 'justify' }}>
-              Formado em análise e desenvolvimento de sistemas, pela Universidade Estácio de Sá, busco novos desafios na minha carreira profissional como desenvolvedor back-end, não descartando a possibilidade de atuar como front.
-            </p>
-            <p style={{ textAlign: 'justify' }}>
-              Procuro por uma empresa que possa me proporcionar desafios constantes, inovação e oportunidades de crescimento pessoal e profissional.
+
+              Sou Djhonatas Santos de Oliveira, Analista de Sistemas Jr. Atuo na administração dos sistemas acadêmicos Universus e Perseus nas Faculdades Oswaldo Cruz, com destaque para a migração de dados do Universus para o Perseus.<br />
+
+              Tenho experiência em suporte técnico e DBA, além de habilidades em desenvolvimento de APIs e análise de dados. Sou empático, colaborativo e comprometido com o crescimento profissional.<br />
+
+              Fora do trabalho, sou apaixonado por música e encontro inspiração em diversos gêneros e artistas para abordar desafios de forma criativa.<br />
+
+              Busco contribuir para o sucesso da empresa e aprimorar minhas habilidades como backend. Entusiasmado com novos desafios, estou pronto para expandir meus conhecimentos nesta área em constante evolução.<br />
+
+              Grato pela atenção,
+
+              Djhonatas Santos de Oliveira
             </p>
           </div>
 
