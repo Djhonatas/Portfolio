@@ -12,8 +12,11 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ehuoqri', 'template_6188wxi', form.current, '2n0tSd5WqL4rP6Tvl')
-
+    emailjs.sendForm('service_dtst6gc', 'template_41qbgnb', form.current, 'YQd8FUUjJXxtVM8gf').then((result) => {
+      console.log(result.text);
+    }, (error) => {
+      console.log(error.text);
+    });
     e.target.reset('')
   };
 
@@ -27,7 +30,7 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
-            <h5>dj.assuntospessoais@gmail.com</h5>
+            <h6>dj.assuntospessoais@gmail.com</h6>
             <a href="mailto:dj.assuntospessoais@gmail.com" target='_blank' rel="noreferrer">Envie sua mensagem</a>
           </article>
 

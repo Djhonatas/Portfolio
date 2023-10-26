@@ -4,6 +4,7 @@ import IMG1 from '../../assets/mario.jpg'
 import IMG2 from '../../assets/game.png'
 import IMG3 from '../../assets/dash.png'
 import IMG4 from '../../assets/tech.jpg'
+import IMG5 from '../../assets/controle-financeiro.jpg'
 
 
 const data = [
@@ -40,6 +41,15 @@ const data = [
     github: 'https://github.com/Djhonatas/Rest-API-eCommerce',
     // demo: 'https://dribbble.com/OliveiraDjhonatas'
   },
+
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Controle Financeiro',
+    github: 'https://github.com/Djhonatas/controle-financeiro',
+    demo: 'https://controle-financeiro-two-alpha.vercel.app/'
+  },
+
 
 ]
 

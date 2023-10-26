@@ -23,7 +23,7 @@ const Experience = () => {
               <RiHtml5Line className='experience__details-icon' />
               <div>
                 <h4>HTML5</h4>
-                <small className='text-ligth'>Básico</small>
+                <small className='text-ligth'></small>
               </div>
             </article>
 
@@ -31,7 +31,7 @@ const Experience = () => {
               <DiCss3 className='experience__details-icon' />
               <div>
                 <h4>CSS3</h4>
-                <small className='text-ligth'>Básico</small>
+                <small className='text-ligth'></small>
               </div>
             </article>
 
@@ -39,7 +39,7 @@ const Experience = () => {
               <TbBrandJavascript className='experience__details-icon' />
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-ligth'>Básico</small>
+                <small className='text-ligth'></small>
               </div>
             </article>
 
@@ -47,7 +47,7 @@ const Experience = () => {
               <BsFillBootstrapFill className='experience__details-icon' />
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-ligth'>Básico</small>
+                <small className='text-ligth'></small>
               </div>
             </article>
 
@@ -64,7 +64,7 @@ const Experience = () => {
               <DiMsqlServer className='experience__details-icon' />
               <div>
                 <h4>SQL Server</h4>
-                <small className='text-ligth'>Intermediário</small>
+                <small className='text-ligth'></small>
               </div>
             </article>
 
@@ -72,7 +72,7 @@ const Experience = () => {
               <DiNodejsSmall className='experience__details-icon' />
               <div>
                 <h4>Node.JS</h4>
-                <small className='text-ligth'>Básico</small>
+                <small className='text-ligth'></small>
               </div>
             </article>
 
@@ -80,7 +80,7 @@ const Experience = () => {
               <SiMongodb className='experience__details-icon' />
               <div>
                 <h4>MongoDB</h4>
-                <small className='text-ligth'>Básico</small>
+                <small className='text-ligth'></small>
               </div>
             </article>
 
