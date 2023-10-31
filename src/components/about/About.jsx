@@ -42,17 +42,11 @@ const About = () => {
             <p>Caro(a) recrutador,</p>
             <p style={{ textAlign: 'justify' }}>
 
-              Sou Djhonatas Santos de Oliveira, Analista de Sistemas Jr. Atuo na administração dos sistemas acadêmicos Universus e Perseus nas Faculdades Oswaldo Cruz, com destaque para a migração de dados do Universus para o Perseus.<br />
+              Me chamo <strong>Djhonatas Oliveira, </strong>Analista de Sistemas com experiência em administração dos sistemas
+              acadêmicos Universus e Perseus, adquirido nas Faculdades Oswaldo Cruz,
+              destacando-se na migração de dados do sistema Universus para o Perseus.
+              Experiente em suporte técnico e administração de banco de dados (MSSQL).
 
-              Tenho experiência em suporte técnico e DBA, além de habilidades em desenvolvimento de APIs e análise de dados. Sou empático, colaborativo e comprometido com o crescimento profissional.<br />
-
-              Fora do trabalho, sou apaixonado por música e encontro inspiração em diversos gêneros e artistas para abordar desafios de forma criativa.<br />
-
-              Busco contribuir para o sucesso da empresa e aprimorar minhas habilidades como backend. Entusiasmado com novos desafios, estou pronto para expandir meus conhecimentos nesta área em constante evolução.<br />
-
-              Grato pela atenção,
-
-              Djhonatas Santos de Oliveira
             </p>
           </div>
 

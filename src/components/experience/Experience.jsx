@@ -3,7 +3,7 @@ import './experience.css'
 import { RiHtml5Line } from 'react-icons/ri'
 import { SiMongodb } from 'react-icons/si'
 import { DiCss3 } from 'react-icons/di'
-import { TbBrandJavascript } from 'react-icons/tb'
+import { TbBrandJavascript, TbBrandReact } from 'react-icons/tb'
 import { BsFillBootstrapFill } from 'react-icons/bs'
 import { DiMsqlServer } from 'react-icons/di'
 import { DiNodejsSmall } from 'react-icons/di'
@@ -39,6 +39,13 @@ const Experience = () => {
               <TbBrandJavascript className='experience__details-icon' />
               <div>
                 <h4>JavaScript</h4>
+                <small className='text-ligth'></small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <TbBrandReact className='experience__details-icon' />
+              <div>
+                <h4>React</h4>
                 <small className='text-ligth'></small>
               </div>
             </article>

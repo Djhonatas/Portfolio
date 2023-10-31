@@ -4,7 +4,9 @@ import IMG1 from '../../assets/mario.jpg'
 import IMG2 from '../../assets/game.png'
 import IMG3 from '../../assets/dash.png'
 import IMG4 from '../../assets/tech.jpg'
-import IMG5 from '../../assets/controle-financeiro.jpg'
+import IMG5 from '../../assets/controle-financeiro.png'
+import IMG6 from '../../assets/login.jpg'
+
 
 
 const data = [
@@ -50,7 +52,13 @@ const data = [
     demo: 'https://controle-financeiro-two-alpha.vercel.app/'
   },
 
-
+  {
+    id: 6,
+    image: IMG6,
+    title: 'Controle Financeiro',
+    github: 'https://github.com/Djhonatas/Login-Page',
+    demo: 'https://login-page-three-topaz.vercel.app/'
+  },
 ]
 
 const Portifolio = () => {
