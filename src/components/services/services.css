@@ -33,6 +33,7 @@
 
 .service__list {
   padding: 2rem;
+  height: 14rem;
 }
 
 .service__list li {
@@ -60,13 +61,13 @@
 
   .service {
     height: auto;
-    }
   }
+}
 
-  /* ========== MEDIA QUERIES (SMALL DEVICES) ======================*/
+/* ========== MEDIA QUERIES (SMALL DEVICES) ======================*/
 @media screen and (max-width: 600px) {
   .services__container {
     grid-template-columns: 1fr;
     gap: 1.5rem;
-    }
   }
+}

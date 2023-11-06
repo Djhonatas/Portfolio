@@ -45,12 +45,10 @@ const About = () => {
               Me chamo <strong>Djhonatas Oliveira, </strong>Analista de Sistemas com experiência em administração dos sistemas
               acadêmicos Universus e Perseus, adquirido nas Faculdades Oswaldo Cruz,
               destacando-se na migração de dados do sistema Universus para o Perseus.
-              Experiente em suporte técnico e administração de banco de dados (MSSQL).
-
+              Experiente em suporte técnico e administração de banco de dados (MSSQL).<br></br>
+              Nas horas vagas, gosto de fazer freelancer e projetos pessoais.
             </p>
           </div>
-
-
           <a href="#contact" className='btn btn-primary'>Vamos Conversar</a>
 
         </div>

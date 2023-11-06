@@ -11,7 +11,7 @@ const Header = () => {
         <div className='desc__me'>
           <h1 style={{ color: "white" }}>Olá! </h1><br />
           <h2>Me chamo <b>Djhonatas Oliveira,</b></h2>
-          <h2>desenvolvedor back-end</h2>
+          <h2>desenvolvedor fullstack</h2>
           <CTA />
           <HeaderSocials />
         </div>
