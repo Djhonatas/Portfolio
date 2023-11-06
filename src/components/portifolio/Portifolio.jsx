@@ -3,7 +3,7 @@ import './portifolio.css'
 import IMG1 from '../../assets/mario.jpg'
 import IMG2 from '../../assets/game.png'
 import IMG3 from '../../assets/dash.png'
-import IMG4 from '../../assets/tech.jpg'
+import IMG4 from '../../assets/coffee.png'
 import IMG5 from '../../assets/controle-financeiro.png'
 import IMG6 from '../../assets/login.jpg'
 
@@ -39,9 +39,9 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: 'API E-commerce',
-    github: 'https://github.com/Djhonatas/Rest-API-eCommerce',
-    // demo: 'https://dribbble.com/OliveiraDjhonatas'
+    title: 'Coffee Shop',
+    github: 'https://github.com/Djhonatas/coffee-shop',
+    demo: 'https://coffee-shop-six-psi.vercel.app/'
   },
 
   {
