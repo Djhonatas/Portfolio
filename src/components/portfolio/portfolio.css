@@ -1,0 +1,91 @@
+/* ========== PORTFOLIO CONTAINER ========== */
+.portfolio__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.portfolio__item {
+  background: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.portfolio__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+
+.portfolio__item-image {
+  border-radius: 1.9rem;
+  overflow: hidden;
+  place-items: center;
+  height: 13rem;
+}
+
+.portfolio__item-image img {
+  height: 15rem;
+}
+
+.portfolio__item h3 {
+  margin: 1.2rem 0 2rem;
+}
+
+.portfolio__item-cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+/* ========== MODAL ========== */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Cor escura com transparência */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modal-content {
+  background-color: var(--color-bg-variant);
+  /* Cor do modal */
+  border-radius: 1.5rem;
+  padding: 2rem;
+  max-width: 400px;
+  /* Largura máxima do modal */
+  position: relative;
+  /* Para o botão de fechar ficar relativo a este elemento */
+}
+
+.modal-content h2 {
+  color: var(--color-white);
+  margin-bottom: 1rem;
+}
+
+.modal-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.modal-content ul li {
+  margin-bottom: 0.5rem;
+}
+
+.close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+  color: var(--color-white);
+  /* Cor do botão de fechar igual aos outros botões */
+}

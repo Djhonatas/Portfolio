@@ -2,11 +2,9 @@ import React from 'react'
 import './experience.css'
 import { RiHtml5Line } from 'react-icons/ri'
 import { SiMongodb } from 'react-icons/si'
-import { DiCss3 } from 'react-icons/di'
-import { TbBrandJavascript, TbBrandReact } from 'react-icons/tb'
+import { TbBrandJavascript } from 'react-icons/tb'
 import { BsFillBootstrapFill } from 'react-icons/bs'
-import { DiMsqlServer } from 'react-icons/di'
-import { DiNodejsSmall } from 'react-icons/di'
+import { DiPython, DiMsqlServer, DiNodejsSmall, DiMysql, DiCss3 } from 'react-icons/di'
 
 
 const Experience = () => {
@@ -42,13 +40,6 @@ const Experience = () => {
                 <small className='text-ligth'></small>
               </div>
             </article>
-            <article className='experience__details'>
-              <TbBrandReact className='experience__details-icon' />
-              <div>
-                <h4>React</h4>
-                <small className='text-ligth'></small>
-              </div>
-            </article>
 
             <article className='experience__details'>
               <BsFillBootstrapFill className='experience__details-icon' />
@@ -76,6 +67,14 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
+              <DiMysql className='experience__details-icon' />
+              <div>
+                <h4>MySQL</h4>
+                <small className='text-ligth'></small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
               <DiNodejsSmall className='experience__details-icon' />
               <div>
                 <h4>Node.JS</h4>
@@ -87,6 +86,14 @@ const Experience = () => {
               <SiMongodb className='experience__details-icon' />
               <div>
                 <h4>MongoDB</h4>
+                <small className='text-ligth'></small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <DiPython className='experience__details-icon' />
+              <div>
+                <h4>Python</h4>
                 <small className='text-ligth'></small>
               </div>
             </article>

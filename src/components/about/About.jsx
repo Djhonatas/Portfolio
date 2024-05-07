@@ -42,11 +42,9 @@ const About = () => {
             <p>Caro(a) recrutador,</p>
             <p style={{ textAlign: 'justify' }}>
 
-              Me chamo <strong>Djhonatas Oliveira, </strong>Analista de Sistemas com experiência em administração dos sistemas
-              acadêmicos Universus e Perseus, adquirido nas Faculdades Oswaldo Cruz,
-              destacando-se na migração de dados do sistema Universus para o Perseus.
-              Experiente em suporte técnico e administração de banco de dados (MSSQL).<br></br>
-              Nas horas vagas, gosto de fazer freelancer e projetos pessoais.
+              Me chamo <strong>Djhonatas Oliveira, </strong> sou analista de sistemas nas Faculdades Oswaldo Cruz,
+              onde fui responsável pela migração de dados entre sistemas educacionais ERP, desenvolvimento da API para gerar os certificados dos alunos da Pós-Graduação e da API onde restaurantes parceiros validam os funcionários da instituição, entre outras coisas.
+              <br></br>Aguardo ansiosamente o seu contato para que eu possa detalhar as experiências adquiridas nesse período.
             </p>
           </div>
           <a href="#contact" className='btn btn-primary'>Vamos Conversar</a>
