@@ -91,7 +91,7 @@ const Portfolio = () => {
               <div className='portfolio__item-cta'>
                 <a href={github} className='btn' target='_blank' rel='noreferrer'>Github</a>
                 <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'>Demo</a>
-                <button className='btn btn-info' onClick={() => handleButtonClick(id)}>Descrição</button>
+                <button className='btn btn-primary' onClick={() => handleButtonClick(id)}>Describe</button>
               </div>
             </article>
           );
@@ -113,7 +113,8 @@ const Portfolio = () => {
             </div>
           </div>
         </>
-      )}
+      )
+      }
     </section>
   );
 };

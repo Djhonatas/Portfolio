@@ -1,7 +1,7 @@
 /* ========== PORTFOLIO CONTAINER ========== */
 .portfolio__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   text-align: center;
 }
@@ -31,7 +31,7 @@
 }
 
 .portfolio__item h3 {
-  margin: 1.2rem 0 2rem;
+  margin: 1.2rem 0 1rem;
 }
 
 .portfolio__item-cta {
@@ -70,6 +70,7 @@
 .modal-content h2 {
   color: var(--color-white);
   margin-bottom: 1rem;
+
 }
 
 .modal-content ul {
@@ -88,4 +89,10 @@
   cursor: pointer;
   color: var(--color-white);
   /* Cor do botão de fechar igual aos outros botões */
+}
+
+button {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
